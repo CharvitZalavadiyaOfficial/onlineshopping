@@ -1,0 +1,78 @@
+.footer {
+    height: 10vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer .text {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 34vw;
+    right: 0;
+    bottom: 0;
+}
+
+.btn-socialmedia {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1vw;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+#fb {
+    color: #006fff;
+}
+
+#ig {
+    color: #e1306c;
+}
+
+#gh {
+    color: #ffffff;
+}
+
+#li {
+    color: #006fff;
+}
+
+.btn-socialmedia.fb:hover {
+    transform: scale(1.1);
+}
+
+.btn-socialmedia.ig:hover {
+    transform: scale(1.1);
+}
+
+.btn-socialmedia.gh:hover {
+    transform: scale(1.1);
+}
+
+.btn-socialmedia.li:hover {
+    transform: scale(1.1);
+}
+
+.socialmedia-name {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

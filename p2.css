@@ -1,0 +1,33 @@
+.p2 {
+    width: 94;
+    height: 60vh;
+    margin: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: center;
+    border: 2px solid rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.p2-heading {
+    font-size: 30px;
+    width: 94vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.p2cards {
+    width: 15vw;
+    border: 2px solid rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 3vh;
+    background-color: white;
+}

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 17px;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+}
+
+.header {
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    position: fixed;
+}
+
+.header .logo {
+    width: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.container {
+    width: 100vw;
+    height: auto;
+    margin-top: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 1px;
+}
+
+.footer {
+    width: 100vw;
+    height: 21vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
